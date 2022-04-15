@@ -26,6 +26,7 @@ document.getElementById("orig").addEventListener("click", original);
 
 function play () {
 	player.play();
+	document.querySelector('#volume').innerHTML = slider.value + "%";
 }
 
 function pause () {
